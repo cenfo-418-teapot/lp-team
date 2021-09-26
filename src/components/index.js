@@ -1,0 +1,6 @@
+export {default as Header} from './header/Header'
+export {default as Footer} from './footer/Footer'
+export {default as Inicio} from './inicio/Inicio'
+export {default as Integrantes} from './integrantes/Integrantes'
+export {default as Mision} from './mision/Mision'
+export {default as Vision} from './vision/Vision'
