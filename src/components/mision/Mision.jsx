@@ -15,11 +15,19 @@ function Mision() {
       >
         <Grid item>
           <Box sx={{height: '100%'}}>
-            <Typography variant="h6" component="h1">
-              Mision....Un texto de ejemplo...
+            <Typography variant="h3" component="h2" align='left'
+                        sx={{ color: 'primary.main', fontWeight: 'bold' }}>
+              Misión
             </Typography>
-            <Typography variant="h6" component="h1">
-              Un texto de ejemplo...
+            <Typography variant="body1"
+                        component="p"
+                        paragraph="true"
+                        align='left'
+                        sx={{ fontSize: '16px', marginTop: '16px', fontWeight: 'normal' }}
+            >
+              Somos una empresa dedicada a crear soluciones integrales, brindando un servicio
+              de calidad y experiencia, generando valor para la empresa y la sociedad.
+
             </Typography>
           </Box>
         </Grid>  
