@@ -15,11 +15,20 @@ function Vision() {
       >
         <Grid item>
           <Box sx={{height: '100%'}}>
-            <Typography variant="h6" component="h1">
-              Vision....Un texto de ejemplo...
+            <Typography variant="h3" component="h2" align='left'
+                        sx={{ color: 'primary.main', fontWeight: 'bold' }}>
+              Visión
             </Typography>
-            <Typography variant="h6" component="h1">
-              Un texto de ejemplo...
+            <Typography variant="body1"
+                        component="p"
+                        paragraph="true"
+                        align='left'
+                        sx={{ fontSize: '16px', marginTop: '16px', fontWeight: 'normal' }}
+            >
+              Ser una empresa líder de soluciones móviles, desarrollando productos innovadores y
+              convertirnos en aliados estratégicos para nuestros clientes.
+
+
             </Typography>
           </Box>
         </Grid>  
