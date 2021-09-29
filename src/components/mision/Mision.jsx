@@ -15,7 +15,7 @@ function Mision() {
       >
         <Grid item>
           <Box sx={{height: '100%'}}>
-            <Typography variant="h3" component="h2" align='left'
+            <Typography variant="h3" component="h2" align="left"
                         sx={{ color: 'primary.main', fontWeight: 'bold' }}>
               Misión
             </Typography>
