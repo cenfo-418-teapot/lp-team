@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.img-responsive {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
