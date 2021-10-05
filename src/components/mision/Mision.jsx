@@ -1,35 +1,30 @@
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
-import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 
 function Mision() {
   return (    
-    <Container maxWidth="100%" sx={{height: '100%'}}>
+    <Container sx={{height: '100%'}}>
       <Grid
+       sx={{height: '100%'}}
         container
-        direction="column"
+        direction="row"
         justifyContent="center"
         alignItems="center"
-        sx={{height: '100%'}}
+        spacing="1.25rem"
       >
-        <Grid item>
-          <Box sx={{height: '100%'}}>
-            <Typography variant="h3" component="h2" align="left"
-                        sx={{ color: 'primary.main', fontWeight: 'bold' }}>
-              Misión
-            </Typography>
-            <Typography variant="body1"
-                        component="p"
-                        paragraph="true"
-                        align='left'
-                        sx={{ fontSize: '16px', marginTop: '16px', fontWeight: 'normal' }}
-            >
-              Somos una empresa dedicada a crear soluciones integrales, brindando un servicio
-              de calidad y experiencia, generando valor para la empresa y la sociedad.
-
-            </Typography>
-          </Box>
+        <Grid item xs={6}>
+          <div>
+            <img className="img-responsive" src="images/mision.png" alt="418 Teapot - Misión" />
+          </div>
+        </Grid> 
+        <Grid item xs={6}>
+          <Typography variant="h4" component="h1" sx={{ color: 'primary.main', fontWeight: 'bold', marginBottom: '2rem' }}>
+            Misión
+          </Typography>
+          <Typography variant="body1" component="p" sx={{ maxWidth: '30rem' }}>
+            Somos una empresa dedicada a crear soluciones integrales, brindando un servicio de calidad y experiencia, generando valor para la empresa y la sociedad.
+          </Typography>
         </Grid>  
       </Grid>
     </Container>
